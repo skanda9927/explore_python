@@ -1,9 +1,11 @@
-#simple interest
-print ("\n enter the principle amt \n ")
-p = int(input ())
+#
+## Find a simple interest for the given principal, rate_of_interest, time_duration
+#
+print ("\n enter the principle amount: \n ")
+principal_amount = float(input ())
 print ('enter the duration for which simple interest has to be calculated in years \n')
-t = int (input())
+t = float(input())
 print ('enter the rate  of interest per annum\n')
-r = int ( input())
-i = p*t*r/100
-print ('\n simple interest as per given data is ',i)
+r = float( input())
+simple_interest = (principal_amount * t * r) / 100
+print ('\nSimple interest for principle {}, for {}years time, with {} as interest is: {}'.format(principal_amount, t, r, simple_interest))
