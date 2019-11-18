@@ -27,3 +27,12 @@ for index in range (0, total_number_of_numbers):
     else : odd_number_count = odd_number_count + 1
     
 print("total number of even number is ",even_number_count,"total number of odd number count is",odd_number_count)
+
+## Series of numbers
+num_series = [ 1, 11, 5, 4, 99, 10, 68, 12, 19, 71 ]
+## List comprehension
+odd_nums   = [ x for x in num_series if x % 2 == 1 ]
+even_nums  = [ x for x in num_series if x % 2 == 0 ]
+print( odd_nums)
+print( even_nums)
+

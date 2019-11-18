@@ -16,4 +16,10 @@ elif flag == 11:
     print ("number divisible by 11") ;
 elif flag == 12 :
     print ("number is divisble by 11 and 5")
-        
+
+## Use 'and' for both conditions
+if (number % 5 == 0) and (number % 11 == 0):
+    print("The number is divisible by both 5 and 11")
+else:
+    print("The number is not divisible by both 5 and 11")
+

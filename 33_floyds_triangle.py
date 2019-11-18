@@ -14,7 +14,7 @@ number = 1
 # i loop for column looping and j loop for row looping
 for i in range(1, size + 1):
     for j in range(1, i + 1):
-        print(number, end=" ")
+        print("%3d" % number, end=" ")
         number = number + 1
     print()
 print("\n")
